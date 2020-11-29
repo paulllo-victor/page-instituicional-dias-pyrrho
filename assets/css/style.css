@@ -1,0 +1,73 @@
+/*
+    AUTHOR: PAULO VICTOR
+    DATE: 28/11/2020
+    TIME: 20:54
+*/
+body{
+    height: 100%;
+}
+.fast-contacts p{
+    font-size: 12px;
+}
+.bg-image{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+.overflow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 43, 89, 0.83);
+}
+.call-header h1{
+    font-family: 'Merriweather';
+    font-size: 48px;
+}
+.call-header p{
+    font-size: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn-whatsapp{
+    padding: 10px 20px;
+    background-color: #34AF23;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.774);
+    color: white;
+    display: inline-block
+}
+.btn-whatsapp:hover{
+    color: white;
+    text-decoration: none;
+}
+.container-differences{
+    margin-top: -80px;
+    padding: 20px 10px;
+    background-color:#002B59;
+    border-radius: 10px;
+    position: relative;
+}
+.differences{
+    border-right: 3px solid #B6B7B9;
+    padding-right: 10%;
+}
+.differences p{
+    color: #B6B7B9;
+}
+
+@media screen and (max-width: 768px){
+    .fast-contacts{
+        text-align: center;
+    }
+    .fast-contacts p{
+        padding-bottom: 7px;
+    }
+    .differences{
+        border-right: none;
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+}
