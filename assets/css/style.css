@@ -3,11 +3,23 @@
     DATE: 28/11/2020
     TIME: 20:54
 */
+*{
+    font-family: 'Montserrat';
+}
+*:focus{
+    outline: 0;
+}
+.font-merriweather{
+    font-family: 'Merriweather';
+}
 body{
     height: 100%;
 }
 .fast-contacts p{
     font-size: 12px;
+}
+.text-blue{
+    color: #002B59;
 }
 .bg-image{
     width: 100%;
@@ -23,7 +35,6 @@ body{
     background-color: rgba(0, 43, 89, 0.83);
 }
 .call-header h1{
-    font-family: 'Merriweather';
     font-size: 48px;
 }
 .call-header p{
@@ -56,6 +67,36 @@ body{
 }
 .differences p{
     color: #B6B7B9;
+}
+.item-acting{
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 43, 89, 0.25)
+}
+.single-comment{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.slick-dots li button:before {
+    color: white !important;
+}
+.slick-dots li.slick-active button:before {
+    color:#C4C4C4 !important;
+}
+.bg-image-section{
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+.overflow-section{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(0, 43, 89, 0.83);
 }
 
 @media screen and (max-width: 768px){
