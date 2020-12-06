@@ -87,7 +87,6 @@ body{
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 43, 89, 0.25);
 }
-}
 .slick-dots li button:before {
     color: white !important;
 }
